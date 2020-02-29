@@ -1,0 +1,102 @@
+<html>
+		<head>
+		<title>Web Programming 2 - Class 6</title>
+		<script src="js\jquery-3.4.1.js"></script>
+			<script src="js\jquery-ui.js"></script>
+			<link rel="stylesheet" type="text/css" href="css\jquery-ui.css">
+		<style>
+
+
+		</style>
+			<script>
+				$(document).ready(function() {
+				 //alert("working");
+				 $("#widget").accordion({
+				 
+					heightStyle:"content",
+					collapsible: true,
+					active :0
+				
+				});
+				  	$( "#tabs" ).tabs({
+					event: "mouseover"
+						
+				});
+				
+						 $( "#dialog" ).dialog();
+				});		 
+      </script>
+		</head>
+			<body class ="colorr" >
+			
+			
+			<div id="dialog" title="Basic dialog">
+  <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized and closed with the 'x' icon.</p>
+</div>
+			<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-2">Proin dolor</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>abc </div>
+  <div id="tabs-2">
+    <p>123
+  </div>
+  <div id="tabs-3">
+    <p>bjhgjhg
+	</div>
+</div>
+			
+			
+			
+			
+			
+			<br/>
+			<div id="widget">
+  <h3>Section 1</h3>
+  <div>
+    <p>
+		sidhu moosewala
+
+    </p>
+  </div>
+  <h3>Section 2</h3>
+  <div>
+    <p>
+		karan aujla
+    </p>
+  </div>
+  <h3>Section 3</h3>
+  <div>
+    <p>
+		sultan
+    </p>
+    <ul>
+      <li>List item one</li>
+      <li>List item two</li>
+      <li>List item three</li>
+    </ul>
+  </div>
+  <h3>Section 4</h3>
+  <div>
+    <p>
+    Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+    et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+    faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+    mauris vel est.
+    </p>
+    <p>
+    Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+    Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+    inceptos himenaeos.
+    </p>
+  </div>
+</div>
+
+
+			
+
+		</body>
+</html>
